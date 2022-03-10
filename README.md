@@ -3,8 +3,8 @@ Design of a 3-bit Flash type ADC circuit using mixed-mode simulation, for the on
 
 # Contents
 - [Introduction](#Introduction)
-- [Open-Sourced Tools used](#Open--Sourced-Tools-used)
-- [Flash-Type ADC](#Flash--Type-ADC)
+- [Open-Sourced Tools used](#Open-Sourced-Tools-used)
+- [Flash-Type ADC](#Flash-Type-ADC)
 - 
 
 # Introduction
