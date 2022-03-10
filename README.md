@@ -34,7 +34,7 @@ The design and simulation of the double-tail comparator is shown below. The desi
 </p>
 
 # Analog Block:
-The analog block of the circuit comprises of comparators and voltage dividers. A 3-bit Flash Type ADC consists of 7 comparators and 8 resistors. The input voltage is given in the form of a continuously varying sine wave, and the reference voltage is given in the form of a constant DC supply voltage. The voltage divider, divides the reference voltage into seven different voltages. For 3-bit Flash ADC, the voltage is divided from 7V/8 to 1V/8. The comparator output, along with a magnified version for better interpretation is shown below.
+The analog block of the circuit comprises of comparators and voltage dividers. A 3-bit Flash Type ADC consists of 7 comparators and 8 resistors. Since, we are using seven comparators, the simulation time is overwhelmingly increased for double-tail comparators, hence we go for the already available comparator subcircuit lm-741. The input voltage is given in the form of a continuously varying sine wave, and the reference voltage is given in the form of a constant DC supply voltage. The voltage divider, divides the reference voltage into seven different voltages. For 3-bit Flash ADC, the voltage is divided from 7V/8 to 1V/8. The comparator output, along with a magnified version for better interpretation is shown below.
 
 <p align="center">
   <img src="https://github.com/Charaan27/3_bit_flash_adc/blob/main/images/comp_op_wave.PNG">
