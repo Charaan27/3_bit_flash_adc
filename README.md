@@ -11,6 +11,7 @@ Design of a 3-bit Flash type ADC circuit using mixed-mode simulation, for the on
 - [Mixed-Mode Simulation Steps](Mixed-Mode-Simulation-Steps)
 - [Output waveform and result](Output-waveform-and-result)
 
+
 # Introduction
 In this repository, the design of a 3-bit Flash Type A-D circuit is made using open-source EDA tools. The simulation being carried out is in mixed-mode (i.e.) both analog and digital simulation. Later the obtained simulation, is verified for it's correctness and functionality.
 
@@ -118,3 +119,18 @@ By magnifying a portion of the waveform, we infer that the output bits obtained 
 <p align="center">
   <img src="https://github.com/Charaan27/3_bit_flash_adc/blob/main/images/flash_adc_result.PNG">
 </p>
+
+
+# Acknowledgements
+- [Mr. Kunal Ghosh](https://www.vlsisystemdesign.com/about-us/) - Co-Founder at VLSI System Design (VSD) Corp.
+- [Dr. Kannan M Moudgalya](https://www.che.iitb.ac.in/faculty/kannan-m-moudgalya) - Professor, Department of Chemical Engineering, IIT Bombay
+- [Mr. Sumanto Kar](https://www.linkedin.com/in/sumanto-kar-0424391a9/?originalSubdomain=in) - Sr. Project Technical Assistant, IIT Bombay
+- [Nalinkumar S](https://www.linkedin.com/in/nalinkumar-s-79a651196/) - B.E. ECE Student, Anna University: MIT Campus
+
+# Author:
+Charaan S, Pre-Final year student, B.E. ECE, Anna University: MIT Campus, Chennai, India
+
+# References:
+1. Chavan, Arunkumar, Rekha, Periasamy and Narashimaraja. (2013). An Efficient Design of 3bit and 4bit Flash ADC. International Journal of Computer Applications. 61. 32-37. 10.5120/9974-4802.
+2. S. Aakash, A. Anisha, G. J. Das, T. Abhiram and J. P. Anita, "Design of a low power, high speed double tail comparator," 2017 International Conference on Circuit ,Power and Computing Technologies (ICCPCT), 2017, pp. 1-5, doi: 10.1109/ICCPCT.2017.8074370.
+3. Linear Integrated Circuits by S. Salivahanan, Tata McGraw-Hill, 2007
