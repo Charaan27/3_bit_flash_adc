@@ -1,0 +1,28 @@
+* c:\fossee\esim\library\subcircuitlibrary\double_tail_comp\double_tail_comp.cir
+
+.include INVCMOS.sub
+.include PMOS-180nm.lib
+.include NMOS-180nm.lib
+m1 /out net-_m1-pad2_ gnd gnd CMOSN W=100u L=100u M=1
+m5 /out net-_m11-pad1_ gnd gnd CMOSN W=100u L=100u M=1
+m8 net-_m11-pad1_ /out gnd gnd CMOSN W=100u L=100u M=1
+m12 net-_m11-pad1_ net-_m10-pad1_ gnd gnd CMOSN W=100u L=100u M=1
+m3 /out net-_m11-pad1_ net-_m11-pad3_ net-_m11-pad3_ CMOSP W=100u L=100u M=1
+m11 net-_m11-pad1_ /out net-_m11-pad3_ net-_m11-pad3_ CMOSP W=100u L=100u M=1
+m7 net-_m11-pad3_ net-_m7-pad2_ /vdd /vdd CMOSP W=100u L=100u M=1
+m2 net-_m1-pad2_ /clk /vdd /vdd CMOSP W=100u L=100u M=1
+m10 net-_m10-pad1_ /clk /vdd /vdd CMOSP W=100u L=100u M=1
+m4 net-_m1-pad2_ /in1 net-_m4-pad3_ gnd CMOSP W=100u L=100u M=1
+m9 net-_m10-pad1_ /in2 net-_m4-pad3_ gnd CMOSP W=100u L=100u M=1
+m6 net-_m4-pad3_ /clk gnd gnd CMOSP W=100u L=100u M=1
+x1 /clk net-_m7-pad2_ INVCMOS
+* u1  /clk /in1 /out /in2 /vdd port
+.tran 0e-00 0e-00 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+.endc
+.end

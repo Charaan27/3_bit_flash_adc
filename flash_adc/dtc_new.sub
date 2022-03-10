@@ -1,0 +1,22 @@
+* Subcircuit dtc_new
+.subckt dtc_new clk vdd in2 in1 outp 
+* c:\fossee\esim\library\subcircuitlibrary\dtc_new\dtc_new.cir
+.include INVCMOS.sub
+.include PMOS-180nm.lib
+.include NMOS-180nm.lib
+m1 outp net-_m1-pad2_ gnd gnd CMOSN W=100u L=100u M=1
+m5 outp outn gnd gnd CMOSN W=100u L=100u M=1
+m8 outn outp gnd gnd CMOSN W=100u L=100u M=1
+m12 outn net-_m10-pad1_ gnd gnd CMOSN W=100u L=100u M=1
+m3 outp outn net-_m11-pad3_ net-_m11-pad3_ CMOSP W=100u L=100u M=1
+m11 outn outp net-_m11-pad3_ net-_m11-pad3_ CMOSP W=100u L=100u M=1
+m7 net-_m11-pad3_ net-_m7-pad2_ vdd vdd CMOSP W=100u L=100u M=1
+m2 net-_m1-pad2_ clk vdd vdd CMOSP W=100u L=100u M=1
+m10 net-_m10-pad1_ clk vdd vdd CMOSP W=100u L=100u M=1
+m4 net-_m1-pad2_ in1 net-_m4-pad3_ gnd CMOSN W=100u L=100u M=1
+m9 net-_m10-pad1_ in2 net-_m4-pad3_ gnd CMOSN W=100u L=100u M=1
+m6 net-_m4-pad3_ clk gnd gnd CMOSN W=100u L=100u M=1
+x1 clk net-_m7-pad2_ INVCMOS
+* Control Statements
+
+.ends dtc_new
