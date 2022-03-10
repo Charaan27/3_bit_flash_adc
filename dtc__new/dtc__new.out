@@ -1,0 +1,5995 @@
+
+No compatibility mode selected!
+
+Warning: Unusual leading characters like ')' or others out of '= [] ? () & % $"!:,;\f'
+    in netlist or included files, will be replaced with '*'.
+    Check line no 6:  )
+
+
+Circuit: * /home/kumarcharaan27/downloads/dtc__new/dtc__new.cir
+
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+net-_r1-pad1_                                1
+vr1                                   0.866897
+vr2                                   0.736132
+vr3                                   0.607696
+vr4                                   0.481585
+vr5                                    0.35779
+vr6                                   0.236303
+vr7                                     0.1171
+vdd                                         14
+vin                                          0
+x5.net-_q1-pad1_                        13.461
+x5.net-_q1-pad3_                      -0.10375
+x5.net-_q2-pad3_                      0.329665
+x5.net-_q3-pad2_                       -13.724
+x5.net-_q13-pad1_                     -0.20696
+x5.net-_c1-pad2_                      -12.7126
+x5.net-_q3-pad3_                           -14
+?                                     -13.9998
+vss                                        -14
+x5.net-_q12-pad1_                     -13.3605
+x5.net-_q13-pad3_                     -13.9005
+x5.net-_q10-pad1_                      13.3593
+x5.net-_c1-pad1_                      -12.2405
+x5.net-_q14-pad2_                     -12.6634
+x5.net-_q14-pad3_                      -13.306
+x5.net-_q15-pad2_                     -13.3113
+x5.net-_q15-pad3_                     -13.9574
+x5.net-_q18-pad3_                     -12.7693
+o1                                    -12.7696
+x5.net-_q19-pad3_                     -12.7704
+x6.net-_q1-pad1_                        13.461
+x6.net-_q1-pad3_                     -0.169106
+x6.net-_q2-pad3_                      0.198985
+x6.net-_q3-pad2_                      -13.7183
+x6.net-_q13-pad1_                     -0.33763
+x6.net-_c1-pad2_                      -12.7126
+x6.net-_q3-pad3_                      -13.9999
+x6.net-_q12-pad1_                     -13.3605
+x6.net-_q13-pad3_                     -13.9005
+x6.net-_q10-pad1_                      13.3593
+x6.net-_c1-pad1_                      -12.2405
+x6.net-_q14-pad2_                     -12.6634
+x6.net-_q14-pad3_                     -13.3059
+x6.net-_q15-pad2_                     -13.3113
+x6.net-_q15-pad3_                     -13.9574
+x6.net-_q18-pad3_                     -12.7693
+o2                                    -12.7696
+x6.net-_q19-pad3_                     -12.7704
+x2.net-_q1-pad1_                       13.4611
+x2.net-_q1-pad3_                     -0.233272
+x2.net-_q2-pad3_                     0.0706349
+x2.net-_q3-pad2_                      -13.6833
+x2.net-_q13-pad1_                    -0.465971
+x2.net-_c1-pad2_                      -12.7127
+x2.net-_q3-pad3_                      -13.9998
+x2.net-_q12-pad1_                     -13.3605
+x2.net-_q13-pad3_                     -13.9006
+x2.net-_q10-pad1_                      13.3593
+x2.net-_c1-pad1_                      -12.2405
+x2.net-_q14-pad2_                     -12.6634
+x2.net-_q14-pad3_                     -13.3059
+x2.net-_q15-pad2_                     -13.3113
+x2.net-_q15-pad3_                     -13.9574
+x2.net-_q18-pad3_                     -12.7693
+o3                                    -12.7696
+x2.net-_q19-pad3_                     -12.7704
+x3.net-_q1-pad1_                       13.4611
+x3.net-_q1-pad3_                     -0.296261
+x3.net-_q2-pad3_                    -0.0553917
+x3.net-_q3-pad2_                      -13.6118
+x3.net-_q13-pad1_                    -0.591986
+x3.net-_c1-pad2_                      -12.7127
+x3.net-_q3-pad3_                       -13.997
+x3.net-_q12-pad1_                     -13.3605
+x3.net-_q13-pad3_                     -13.9006
+x3.net-_q10-pad1_                      13.3593
+x3.net-_c1-pad1_                      -12.2405
+x3.net-_q14-pad2_                     -12.6634
+x3.net-_q14-pad3_                     -13.3059
+x3.net-_q15-pad2_                     -13.3113
+x3.net-_q15-pad3_                     -13.9574
+x3.net-_q18-pad3_                     -12.7692
+o4                                    -12.7696
+x3.net-_q19-pad3_                     -12.7704
+x4.net-_q1-pad1_                       13.4612
+x4.net-_q1-pad3_                      -0.35806
+x4.net-_q2-pad3_                     -0.179081
+x4.net-_q3-pad2_                      -13.4907
+x4.net-_q13-pad1_                    -0.715642
+x4.net-_c1-pad2_                      -12.7128
+x4.net-_q3-pad3_                      -13.9495
+x4.net-_q12-pad1_                     -13.3605
+x4.net-_q13-pad3_                     -13.9006
+x4.net-_q10-pad1_                      13.3593
+x4.net-_c1-pad1_                      -12.2405
+x4.net-_q14-pad2_                     -12.6633
+x4.net-_q14-pad3_                     -13.3059
+x4.net-_q15-pad2_                     -13.3113
+x4.net-_q15-pad3_                     -13.9574
+x4.net-_q18-pad3_                     -12.7692
+o5                                    -12.7696
+x4.net-_q19-pad3_                     -12.7703
+x1.net-_q1-pad1_                       13.4613
+x1.net-_q1-pad3_                     -0.475642
+x1.net-_q2-pad3_                     -0.417044
+x1.net-_q3-pad2_                      -13.0053
+x1.net-_q13-pad1_                     -0.95101
+x1.net-_c1-pad2_                      -12.7189
+x1.net-_q3-pad3_                      -13.5227
+x1.net-_q12-pad1_                     -13.3605
+x1.net-_q13-pad3_                     -13.9007
+x1.net-_q10-pad1_                      13.3593
+x1.net-_c1-pad1_                      -12.2396
+x1.net-_q14-pad2_                     -12.6625
+x1.net-_q14-pad3_                      -13.305
+x1.net-_q15-pad2_                     -13.3116
+x1.net-_q15-pad3_                     -13.9575
+x1.net-_q18-pad3_                     -12.7683
+o7                                    -12.7687
+x1.net-_q19-pad3_                     -12.7695
+x7.net-_q1-pad1_                       13.4612
+x7.net-_q1-pad3_                      -0.41844
+x7.net-_q2-pad3_                     -0.300241
+x7.net-_q3-pad2_                      -13.0876
+x7.net-_q13-pad1_                    -0.836546
+x7.net-_c1-pad2_                      -12.7133
+x7.net-_q3-pad3_                      -13.6002
+x7.net-_q12-pad1_                     -13.3605
+x7.net-_q13-pad3_                     -13.9006
+x7.net-_q10-pad1_                      13.3593
+x7.net-_c1-pad1_                      -12.2404
+x7.net-_q14-pad2_                     -12.6633
+x7.net-_q14-pad3_                     -13.3059
+x7.net-_q15-pad2_                     -13.3113
+x7.net-_q15-pad3_                     -13.9574
+x7.net-_q18-pad3_                     -12.7692
+o6                                    -12.7695
+x7.net-_q19-pad3_                     -12.7703
+out3                                         0
+out2                                         0
+out1                                         0
+v4#branch                           -0.0111131
+v1#branch                         -3.49407e-08
+v3#branch                         -1.33103e-05
+v2#branch                           -0.0111114
+a2#branch_1_0                                0
+a2#branch_1_1                                0
+a2#branch_1_2                                0
+
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+
+No. of Data Rows : 14373
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+binary raw file "/home/kumarcharaan27/Downloads/dtc__new/dtc__new.raw"
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+No. of Data Columns : 289     
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+net-_r1-pad1_                                1
+vr1                                   0.866897
+vr2                                   0.736132
+vr3                                   0.607696
+vr4                                   0.481585
+vr5                                    0.35779
+vr6                                   0.236303
+vr7                                     0.1171
+vdd                                         14
+vin                                          0
+x5.net-_q1-pad1_                        13.461
+x5.net-_q1-pad3_                      -0.10375
+x5.net-_q2-pad3_                      0.329665
+x5.net-_q3-pad2_                       -13.724
+x5.net-_q13-pad1_                     -0.20696
+x5.net-_c1-pad2_                      -12.7126
+x5.net-_q3-pad3_                           -14
+?                                     -13.9998
+vss                                        -14
+x5.net-_q12-pad1_                     -13.3605
+x5.net-_q13-pad3_                     -13.9005
+x5.net-_q10-pad1_                      13.3593
+x5.net-_c1-pad1_                      -12.2405
+x5.net-_q14-pad2_                     -12.6634
+x5.net-_q14-pad3_                      -13.306
+x5.net-_q15-pad2_                     -13.3113
+x5.net-_q15-pad3_                     -13.9574
+x5.net-_q18-pad3_                     -12.7693
+o1                                    -12.7696
+x5.net-_q19-pad3_                     -12.7704
+x6.net-_q1-pad1_                        13.461
+x6.net-_q1-pad3_                     -0.169106
+x6.net-_q2-pad3_                      0.198985
+x6.net-_q3-pad2_                      -13.7183
+x6.net-_q13-pad1_                     -0.33763
+x6.net-_c1-pad2_                      -12.7126
+x6.net-_q3-pad3_                      -13.9999
+x6.net-_q12-pad1_                     -13.3605
+x6.net-_q13-pad3_                     -13.9005
+x6.net-_q10-pad1_                      13.3593
+x6.net-_c1-pad1_                      -12.2405
+x6.net-_q14-pad2_                     -12.6634
+x6.net-_q14-pad3_                     -13.3059
+x6.net-_q15-pad2_                     -13.3113
+x6.net-_q15-pad3_                     -13.9574
+x6.net-_q18-pad3_                     -12.7693
+o2                                    -12.7696
+x6.net-_q19-pad3_                     -12.7704
+x2.net-_q1-pad1_                       13.4611
+x2.net-_q1-pad3_                     -0.233272
+x2.net-_q2-pad3_                     0.0706349
+x2.net-_q3-pad2_                      -13.6833
+x2.net-_q13-pad1_                    -0.465971
+x2.net-_c1-pad2_                      -12.7127
+x2.net-_q3-pad3_                      -13.9998
+x2.net-_q12-pad1_                     -13.3605
+x2.net-_q13-pad3_                     -13.9006
+x2.net-_q10-pad1_                      13.3593
+x2.net-_c1-pad1_                      -12.2405
+x2.net-_q14-pad2_                     -12.6634
+x2.net-_q14-pad3_                     -13.3059
+x2.net-_q15-pad2_                     -13.3113
+x2.net-_q15-pad3_                     -13.9574
+x2.net-_q18-pad3_                     -12.7693
+o3                                    -12.7696
+x2.net-_q19-pad3_                     -12.7704
+x3.net-_q1-pad1_                       13.4611
+x3.net-_q1-pad3_                     -0.296261
+x3.net-_q2-pad3_                    -0.0553917
+x3.net-_q3-pad2_                      -13.6118
+x3.net-_q13-pad1_                    -0.591986
+x3.net-_c1-pad2_                      -12.7127
+x3.net-_q3-pad3_                       -13.997
+x3.net-_q12-pad1_                     -13.3605
+x3.net-_q13-pad3_                     -13.9006
+x3.net-_q10-pad1_                      13.3593
+x3.net-_c1-pad1_                      -12.2405
+x3.net-_q14-pad2_                     -12.6634
+x3.net-_q14-pad3_                     -13.3059
+x3.net-_q15-pad2_                     -13.3113
+x3.net-_q15-pad3_                     -13.9574
+x3.net-_q18-pad3_                     -12.7692
+o4                                    -12.7696
+x3.net-_q19-pad3_                     -12.7704
+x4.net-_q1-pad1_                       13.4612
+x4.net-_q1-pad3_                      -0.35806
+x4.net-_q2-pad3_                     -0.179081
+x4.net-_q3-pad2_                      -13.4907
+x4.net-_q13-pad1_                    -0.715642
+x4.net-_c1-pad2_                      -12.7128
+x4.net-_q3-pad3_                      -13.9495
+x4.net-_q12-pad1_                     -13.3605
+x4.net-_q13-pad3_                     -13.9006
+x4.net-_q10-pad1_                      13.3593
+x4.net-_c1-pad1_                      -12.2405
+x4.net-_q14-pad2_                     -12.6633
+x4.net-_q14-pad3_                     -13.3059
+x4.net-_q15-pad2_                     -13.3113
+x4.net-_q15-pad3_                     -13.9574
+x4.net-_q18-pad3_                     -12.7692
+o5                                    -12.7696
+x4.net-_q19-pad3_                     -12.7703
+x1.net-_q1-pad1_                       13.4613
+x1.net-_q1-pad3_                     -0.475642
+x1.net-_q2-pad3_                     -0.417044
+x1.net-_q3-pad2_                      -13.0053
+x1.net-_q13-pad1_                     -0.95101
+x1.net-_c1-pad2_                      -12.7189
+x1.net-_q3-pad3_                      -13.5227
+x1.net-_q12-pad1_                     -13.3605
+x1.net-_q13-pad3_                     -13.9007
+x1.net-_q10-pad1_                      13.3593
+x1.net-_c1-pad1_                      -12.2396
+x1.net-_q14-pad2_                     -12.6625
+x1.net-_q14-pad3_                      -13.305
+x1.net-_q15-pad2_                     -13.3116
+x1.net-_q15-pad3_                     -13.9575
+x1.net-_q18-pad3_                     -12.7683
+o7                                    -12.7687
+x1.net-_q19-pad3_                     -12.7695
+x7.net-_q1-pad1_                       13.4612
+x7.net-_q1-pad3_                      -0.41844
+x7.net-_q2-pad3_                     -0.300241
+x7.net-_q3-pad2_                      -13.0876
+x7.net-_q13-pad1_                    -0.836546
+x7.net-_c1-pad2_                      -12.7133
+x7.net-_q3-pad3_                      -13.6002
+x7.net-_q12-pad1_                     -13.3605
+x7.net-_q13-pad3_                     -13.9006
+x7.net-_q10-pad1_                      13.3593
+x7.net-_c1-pad1_                      -12.2404
+x7.net-_q14-pad2_                     -12.6633
+x7.net-_q14-pad3_                     -13.3059
+x7.net-_q15-pad2_                     -13.3113
+x7.net-_q15-pad3_                     -13.9574
+x7.net-_q18-pad3_                     -12.7692
+o6                                    -12.7695
+x7.net-_q19-pad3_                     -12.7703
+out3                                         0
+out2                                         0
+out1                                         0
+v4#branch                           -0.0111131
+v1#branch                         -3.49407e-08
+v3#branch                         -1.33103e-05
+v2#branch                           -0.0111114
+a2#branch_1_0                                0
+a2#branch_1_1                                0
+a2#branch_1_2                                0
+
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=0
+d_out=0
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=254
+d_out=7
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=254
+d_out=7
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=126
+d_out=6
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=126
+d_out=6
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=62
+d_out=5
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=62
+d_out=5
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=30
+d_out=4
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=30
+d_out=4
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=14
+d_out=3
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=14
+d_out=3
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=6
+d_out=2
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=6
+d_out=2
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=2
+d_out=1
+=============charaan_pe : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+d_in=2
+d_out=1
+
+Inside foo after eval.....
+d_in=0
+d_out=0
+
+No. of Data Rows : 14373
+
+Total analysis time (seconds) = 22.6989
+
+Total CPU time (seconds) = 27.846 
+
+Total DRAM available = 257855.305 MB.
+DRAM currently available = 241286.520 MB.
+Maximum ngspice program size =  144.832 MB.
+Current ngspice program size =   54.758 MB.
+
+Shared ngspice pages =    9.664 MB.
+Text (code) pages =    6.285 MB.
+Stack = 0 bytes.
+Library pages =   58.289 MB.
+
