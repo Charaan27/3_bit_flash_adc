@@ -38,4 +38,7 @@ The outputs of the comparators, need to be represented in the form of n-output b
 - The transient analysis parameters and source parameters are added and the KiCad to Ngspice conversion is being done.
 - The obtained .cir.out file is then simulated using Ngspice, and the waveforms are captured.
 
+# Output waveform and result:
+The obtained output waveform is shown below:
 
+By magnifying a portion of the waveform, we infer that the output bits obtained are from 000 to 111 as the input voltage increases from 0 to V<sub>p</sub>. Later, as the voltage waveform decreases to 0, the output bits vary from 111 to 000. This indicates the correct working of the designed Flash ADC circuit.
