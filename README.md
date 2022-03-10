@@ -1,5 +1,5 @@
 # 3_bit_flash_adc
-Design of a 3-bit Flash type ADC circuit using mixed-mode simulation, for the online event (Mixed Signal Circuit Design and Simulation Marathon)[https://hackathon.fossee.in/esim/] conducted by (FOSSEE, IIT Bombay)[https://fossee.in/], (VLSI System Design Corp.)[https://www.vlsisystemdesign.com/] and (Redwood EDA)[https://www.redwoodeda.com/].
+Design of a 3-bit Flash type ADC circuit using mixed-mode simulation, for the online event [Mixed Signal Circuit Design and Simulation Marathon](https://hackathon.fossee.in/esim/) conducted by [FOSSEE, IIT Bombay](https://fossee.in/), [VLSI System Design Corp.](https://www.vlsisystemdesign.com/) and [Redwood EDA](https://www.redwoodeda.com/).
 
 # Introduction
 In this repository, the design of a 3-bit Flash Type A-D circuit is made using open-source EDA tools. The simulation being carried out is in mixed-mode (i.e.) both analog and digital simulation. Later the obtained simulation, is verified for it's correctness and functionality.
