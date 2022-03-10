@@ -14,9 +14,28 @@ In this repository, the design of a 3-bit Flash Type A-D circuit is made using o
 # Flash-Type ADC
 The Flash-Type Analog to Digital Converter circuit is used in comparing an input analog voltage with a set of reference voltages, thereby converting the analog input signal into it’s digital counterparts. The Flash ADC is constructed using a set of comparators arranged in a particular fashion, along with a voltage divider circuit and a coding circuit that produces the binary digits. In this design, the comparator circuit used is a Double-Tail Dynamic Comparator. It is a faster and more efficient comparator design, which can be used to produce digital signals in real-time. The coding circuit implemented here, is an 8:3 Priority Encoder, which is used to produce the 3-bit binary output. The analog block comprises of the Double-Tail Dynamic Comparator built using CMOS technology, and the digital block comprises of the 8:3 Priority Encoder, realized using Verilog Hardware Description Language.
 
-An n-bit Flash type ADC is designed using 2<sup>n−1</sup> comparators, 2n resistors and an n bit coding circuit. Thus, a 3-bit multiplier is required to have 7 comparators, 8 resistors and a 3-bit coding circuit. An important parameter that is required to be defined for all ADC circuits, is the resolution, which denotes the minimum change for conversion. For an n-bit Flash ADC, the resolution, is given as V<sub>ref</sub>/2<sup>n</sup>. For a 3-bit Flash ADC, the resolution is given as V<sub>ref</sub>/8.
+An n-bit Flash type ADC is designed using 2<sup>n−1</sup> comparators, 2n resistors and an n bit coding circuit. Thus, a 3-bit Flash Type ADC is required to have 7 comparators, 8 resistors and a 3-bit coding circuit. An important parameter that is required to be defined for all ADC circuits, is the resolution, which denotes the minimum change for conversion. For an n-bit Flash ADC, the resolution, is given as V<sub>ref</sub>/2<sup>n</sup>. For a 3-bit Flash ADC, the resolution is given as V<sub>ref</sub>/8.
 
 # Double-Tail Comparator
 A comparator is a decision making electronic device that uses an operational amplifier having a high gain. A comparator compares an input voltage level with another voltage level or a preset voltage V<sub>ref</sub>. It produces a binary output depending on which analog input voltage is larger.A Double-Tail Comparator is a faster and more efficient comparator design, which can be used to produce digital signals in real-time. It is one of the comparators that comes with lesser area, delay and power comsumption.
 
 The design and simulation of the double-tail comparator is shown below. The design is made using eSim and KiCad, while the transient analysis is done using Ngspice.
+
+# Analog Block:
+The analog block of the circuit comprises of comparators and voltage dividers. A 3-bit Flash Type ADC consists of 7 comparators and 8 resistors. The input voltage is given in the form of a continuously varying sine wave, and the reference voltage is given in the form of a constant DC supply voltage. The voltage divider, divides the reference voltage into seven different voltages. For 3-bit Flash ADC, the voltage is divided from 7V/8 to 1V/8.
+
+# Digital Block:
+The outputs of the comparators, need to be represented in the form of n-output bits. Since we get seven outputs from the analog block, we go for an 8-3 Priority Encoder, which encodes the inputs, into a 3-bit representation. The last bit of the input is grounded along with the enable signal (as the circuit implemented is active low). Since this bit has the lowest priority, the state of the final bit can be ignored. The digital block is implemented using Verilog HDL, and the simulation is done using Makerchip. As an example, the Hexadecimal number 35, in binary is 00110101, and since the 5th bit is enabled (from 0-LSB), the highest priority is given to that, and the 3-bit output obtained is 101, which in Hexadecimal is 05. 
+
+# Mixed-Mode Simulation Steps:
+- First, the digital block is realized using Verilog HDL. The top level module is simulated in Makerchip.
+- After running the KiCad to Ngspice conversion, the corresponding model for the digital circuit is obtained.
+- Then the analog block is constructed using comparators (lm-741) and resistors, in KiCad.
+- The analog block is interfaced with the digital block using adc_bridges.
+- The output coming from digital block is passed to a dac_bridge.
+- The schematic is annotated, and check for violations. Trivial warnings are ignored.
+- The spice netlist for the schematic is obtained by generating the same through the schematic.
+- The transient analysis parameters and source parameters are added and the KiCad to Ngspice conversion is being done.
+- The obtained .cir.out file is then simulated using Ngspice, and the waveforms are captured.
+
+
