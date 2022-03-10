@@ -109,6 +109,8 @@ The overall circuit schematic of the design, is shown below
   <img src="https://github.com/Charaan27/3_bit_flash_adc/blob/main/images/flash_adc_ckt.PNG">
 </p>
 
+> NOTE: The directory dtc__new contains the flash_adc circuit design, and the directory double_tail_comp contains the double tail comparator design.
+
 # Output waveform and result:
 The obtained output waveform is shown below:
 
